@@ -14,7 +14,11 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
+<<<<<<< HEAD
   "/precache-manifest.5f173bcd4b1ea2edf012fdfdd060fe71.js"
+=======
+  "/precache-manifest.30b849da5590770bbd0875a2d17e988a.js"
+>>>>>>> I implemented an interactive background on the app using particles.js - more to come
 );
 
 self.addEventListener('message', (event) => {
